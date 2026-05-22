@@ -2,17 +2,43 @@ body {
   background: #f8e7e7;
   color: #724060;
   font-family: "Poppins", sans-serif;
-  text-align: center;
 }
 
-main {
+.city-display {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 h1,
 h2 {
   font-family: "Abril Fatface", serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+select {
+  border-radius: 8px;
+  display: block;
+  padding: 10px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+small {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
 }
 
 a {
@@ -31,6 +57,10 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: block;
   margin: 60px auto;
-  max-width: 60%;
+  max-width: 40%;
   padding: 30px;
+}
+
+.time-display {
+  font-size: 50px;
 }
