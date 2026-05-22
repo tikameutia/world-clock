@@ -6,3 +6,11 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
+
+h1 {
+  font-family: "Abril Fatface", serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
