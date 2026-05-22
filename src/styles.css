@@ -1,6 +1,7 @@
 body {
   background: #f8e7e7;
   color: #724060;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -9,12 +10,9 @@ main {
   justify-content: space-evenly;
 }
 
-h1 {
-  font-family: "Abril Fatface", serif;
-}
-
+h1,
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Abril Fatface", serif;
 }
 
 a {
@@ -28,5 +26,11 @@ a:hover {
 }
 
 .container {
-  background: #fdf3f3;
+  background: #fff9f9;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: block;
+  margin: 60px auto;
+  max-width: 60%;
+  padding: 30px;
 }
