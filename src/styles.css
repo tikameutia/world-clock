@@ -15,7 +15,8 @@ h2 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -25,8 +26,10 @@ h2 {
 }
 
 select {
+  background-color: #fff9f9;
   border-radius: 8px;
   display: block;
+  font-family: "Poppins", sans-serif;
   padding: 10px;
   margin: 20px auto;
   width: 100%;
@@ -43,8 +46,7 @@ footer {
 
 a {
   color: #a070a1;
-  font-weight: 800;
-  text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
@@ -56,11 +58,20 @@ a:hover {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: block;
-  margin: 60px auto;
+  margin: 30px auto;
   max-width: 40%;
   padding: 30px;
 }
 
 .time-display {
   font-size: 50px;
+}
+
+.city-display {
+  border-bottom: 1px dashed #724060;
+  padding: 20px;
+}
+
+.city-display:last-child {
+  border-bottom: none;
 }
