@@ -75,3 +75,7 @@ a:hover {
 .city-display:last-child {
   border-bottom: none;
 }
+
+.date {
+  opacity: 0.6;
+}
