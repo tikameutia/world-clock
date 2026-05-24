@@ -44,7 +44,9 @@ function updateCityDisplay(event) {
             <div class="date">${moment().tz(cityTimeZone).format("ddd, D MMMM YYYY")}</div>
           </div>
           <div class="time-display">${moment().tz(cityTimeZone).format("hh:mm [<small>]A[</small>]")}</div>
-        </div>`;
+        </div>
+        <br />
+        <a href="/">Back to clock overview</a>`;
 }
 
 let citySelect = document.querySelector("#city-select");
