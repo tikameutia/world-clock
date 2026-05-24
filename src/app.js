@@ -31,6 +31,19 @@ function updateCityDisplay(event) {
             <div class="date">${moment().tz(cityTimeZone).format("ddd, D MMMM YYYY")}</div>
           </div>
           <div class="time-display">${moment().tz(cityTimeZone).format("hh:mm:ss [<small>]A[</small>]")}</div>
+        </div><div class="city-display" id="jakarta">
+          <div>
+            <h2>Jakarta</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time-display"></div>
+        </div>
+        <div class="city-display" id="amsterdam">
+          <div>
+            <h2>Amsterdam</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time-display"></div>
         </div>`;
 }
 
